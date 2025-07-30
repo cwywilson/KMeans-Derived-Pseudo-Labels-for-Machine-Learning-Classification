@@ -26,10 +26,11 @@ git clone https://github.com/cwywilson/KMeans-Derived-Pseudo-Labels-for-Machine-
 cd KMeans-Derived-Pseudo-Labels-for-Machine-Learning-Classification
 ```
 
-### 2. Install Dependencies
-Ensure you are using Python 3.8 or later. Then run:
+### 2. Set Up the Environment
+Create the Conda environment defined in `environment.yml`:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate kmeans-glacier
 ```
 
 ### 3. Run the Workflow
