@@ -12,7 +12,7 @@ This project applies unsupervised machine learning (KMeans clustering with PCA) 
 
 | File | Purpose |
 |------|---------|
-| `white_glacier_of_sentinel_2_image_download.ipynb` | 📥 Download and preprocess Sentinel-2 imagery using Google Earth Engine. |
+| `white_glacier_of_sentinel_2_image_download.ipynb` | 📥 Download and preprocess Sentinel-2 imagery using Google Earth Engine. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwywilson/KMeans-Derived-Pseudo-Labels-for-Machine-Learning-Classification/blob/main/white_glacier_of_sentinel_2_image_download.ipynb)|
 | `Training Classifier (PCA + KMeans).ipynb` | 🤖 Perfrom PCA and KMeans for pseudo-label creation and train RF/SVM classifiers. |
 | `Snow line Detection.ipynb` | ❄️ Generate classification maps, extract snow-ice boundaries, and calculate SLA from ArcticDEM. |
 
@@ -35,7 +35,8 @@ conda activate kmeans-glacier
 
 ### 3. Run the Workflow
 
-#### 📥 Step 1 – Sentinel-2 Image Download
+#### 📥 Step 1 – Sentinel-2 Image Download [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwywilson/KMeans-Derived-Pseudo-Labels-for-Machine-Learning-Classification/blob/main/white_glacier_of_sentinel_2_image_download.ipynb)
+
 Open the notebook `white_glacier_of_sentinel_2_image_download.ipynb`  
 - Define your area of interest (AOI) and time range (June 15 – August 30)  
 - Export clipped, cloud-free Sentinel-2 imagery over the glacier
