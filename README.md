@@ -35,6 +35,9 @@ conda activate kmeans-glacier
 
 ### 3. Run the Workflow
 
+![Workflow](2fig-flowchart.jpg)
+
+
 #### 📥 Step 1 – Sentinel-2 Image Download [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cwywilson/KMeans-Derived-Pseudo-Labels-for-Machine-Learning-Classification/blob/main/white_glacier_of_sentinel_2_image_download.ipynb)
 
 Open the notebook `white_glacier_of_sentinel_2_image_download.ipynb`  
